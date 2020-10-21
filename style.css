@@ -1,0 +1,113 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+/*.slider
+{
+    height: 500px;
+    width: 100%;
+    /*background-color: khaki;
+}
+
+.imagecon
+{
+    height: 300px;
+    width: 100%;
+  
+    float: left;
+}
+.imagecon:nth-child(1)
+{
+    background-image: url("images/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagecon:nth-child(2)
+{
+    background-image: url("images/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagecon:nth-child(3)
+{
+    background-image: url("images/img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagecon:nth-child(4)
+{
+    background-image: url("images/img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagecon:nth-child(5)
+{
+    background-image: url("images/img4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagecon:nth-child(6)
+{
+    background-image: url("images/img5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+.slider
+{
+    animation-name: images;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-size: fit;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url("images/img.png");
+    animation-delay: 5s;
+    display: table;
+}
+  @keyframes images{
+  
+    0%{background-image: url("images/img1.jpg");}
+    15%{background-image: url("images/img9.jpg");}
+    30%{background-image: url("images/img3.jpg");}
+    60%{background-image: url("images/img4.jpg");}
+    80%{background-image: url("images/img5.jpg");}
+    100%{background-image: url("images/img6.jpg");}
+}
+.section
+{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.footer{
+	margin-top: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	overflow: hidden;
+	background-color: #333;
+	display: flex;
+	justify-content: space-around;
+}
+.footer ul li{
+	list-style-type: none;
+}
+
+/*below*/
+#below{
+	background-color: dimgray;
+	padding: 0px;
+	margin: 0px;
+}
+#below p{
+	padding-top: 20px;
+	padding-bottom: 20px ;
+	text-align: center;
+	margin: 0px;
+}
+
+
